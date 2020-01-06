@@ -1,43 +1,43 @@
-spring:
-  application:
-    name: demo-eureka
-  profiles: eureka-server1
-server:
-  port: 8000
-eureka:
-  instance:
-    hostname: eureka-server1
-    prefer-ip-address: false
-  client:
-    service-url:
-      defaultZone: http://eureka-server2:8001/eureka/,http://eureka-server3:8002/eureka/
-
----
-spring:
-  application:
-    name: demo-eureka
-  profiles: eureka-server2
-server:
-  port: 8001
-eureka:
-  instance:
-    hostname: eureka-server2
-    prefer-ip-address: false
-  client:
-    service-url:
-      defaultZone: http://eureka-server1:8000/eureka/,http://eureka-server3:8002/eureka/
-
----
-spring:
-  application:
-    name: demo-eureka
-  profiles: eureka-server3
-server:
-  port: 8002
-eureka:
-  instance:
-    hostname: eureka-server3
-    prefer-ip-address: false
-  client:
-    service-url:
-      defaultZone: http://eureka-server1:8000/eureka/,http://eureka-server2:8001/eureka/
+#spring:
+#  application:
+#    name: demo-eureka
+#  profiles: eureka-server1
+#server:
+#  port: 8000
+#eureka:
+#  instance:
+#    hostname: eureka-server1
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://eureka-server2:8001/eureka/,http://eureka-server3:8002/eureka/
+#
+#---
+#spring:
+#  application:
+#    name: demo-eureka
+#  profiles: eureka-server2
+#server:
+#  port: 8001
+#eureka:
+#  instance:
+#    hostname: eureka-server2
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://eureka-server1:8000/eureka/,http://eureka-server3:8002/eureka/
+#
+#---
+#spring:
+#  application:
+#    name: demo-eureka
+#  profiles: eureka-server3
+#server:
+#  port: 8002
+#eureka:
+#  instance:
+#    hostname: eureka-server3
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://eureka-server1:8000/eureka/,http://eureka-server2:8001/eureka/
