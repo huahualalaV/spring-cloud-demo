@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="zuul" />
         <module name="course" />
+        <module name="user" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="course" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="user" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

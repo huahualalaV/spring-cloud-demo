@@ -9,3 +9,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-server1:8000/eureka/
+zuul:
+  prefix: /demo
+  routes:
+    course:
+      path: /course/**
+      serviceId: eureka-client-course
+#      为true表示不移除前缀
+      strip-prefix: false
+    user:
+      path: /user/**
+      serviceId: eureka-client-user
+      strip-prefix: false

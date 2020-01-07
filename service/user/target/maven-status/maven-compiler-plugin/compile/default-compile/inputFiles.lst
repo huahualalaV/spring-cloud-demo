@@ -1,0 +1,12 @@
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/entity/User.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/UserApplication.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/client/CourseClientHystrix.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/controller/UserController.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/client/CourseClient.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/service/impl/UserServiceImpl.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/vo/CreateUserRequest.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/service/IUserService.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/dao/UserCourseDao.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/vo/UserCourseInfo.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/entity/UserCourse.java
+/Users/zijie.jiang/Documents/projects/backProjects/demo/service/user/src/main/java/com/jzj/demo/user/dao/UserDao.java
